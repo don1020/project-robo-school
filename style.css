@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ .container{
+    width: 1137px;
+    margin: 0 auto;
+    padding: 0 15px;
+ }
+ .style{
+   list-style: none;
+   display: flex;
+   gap: 15px;
+ }
+ .liststyle a{
+    text-decoration: none;
+    color: rgb(181, 169, 169);
+ }
+ .basi{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   margin-top: -620px;
+   margin-left: 10px;
+ }
+ .Robomschool{
+    color: white;
+ }
+ .number{
+    color: white;
+ }
+
+ header img{
+    width: 1137px;
+ }
+ 
+ .pl{
+    color: white;
+    font-size: 20px;
+ }
+ 
+ .plk{
+    color: white;   
+ }
+ .pp{
+    margin-top: 37px;
+    margin-left: 20px;
+    width: 600px;
+    height: 500px;
+ }
+
+ .qazan a{
+    text-decoration: none;
+    color: white;
+    background-color: brown;
+    text-align: center;
+    padding-top: 10px;
+    width: 200px;
+    height: 40px;
+ }
+ .basi1{
+    margin-top: 60px;
+    display: flex;
+    /* gap: 10px; */
+   
+    margin-left: 230px;
+ }
+ .qazan{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 120px;
+    margin-left: -40px;
+ }
