@@ -73,3 +73,65 @@
     margin-top: 120px;
     margin-left: -40px;
  }
+ .header {
+   text-align: center;
+   margin-bottom: 30px;
+ }
+
+ .header h1 {
+   font-weight: normal;
+   font-size: 24px;
+   margin-bottom: 10px;
+ }
+
+ .stats {
+   display: flex;
+   justify-content: space-around;
+   margin-bottom: 40px;
+ }
+
+ .stats div {
+   text-align: center;
+ }
+
+ .stats div h2 {
+   font-size: 40px;
+   color: #e74c3c;
+ }
+
+ .stats div p {
+   font-size: 18px;
+   color: #555;
+ }
+
+ .content {
+   background-color: #fff;
+   padding: 30px;
+   border-radius: 8px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   text-align: center;
+ }
+
+ .content h2 {
+   font-size: 24px;
+   margin-bottom: 20px;
+ }
+
+ .content .items {
+   display: flex;
+   justify-content: space-between;
+   text-align: left;
+ }
+
+ .content .item {
+   width: 30%;
+ }
+
+ .content .item h3 {
+   font-size: 18px;
+   margin-bottom: 10px;
+ }
+
+ .content .item p {
+   color: #555;
+ }
