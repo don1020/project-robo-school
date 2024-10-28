@@ -77,3 +77,241 @@
    display: flex;
    justify-content: space-between;
  }
+ .container1{
+   padding: 130px;
+ }
+ .header {
+   text-align: center;
+   margin-bottom: 30px;
+ }
+
+ .header h1 {
+   font-weight: normal;
+   font-size: 24px;
+   margin-bottom: 10px;
+ }
+
+ .stats {
+   display: flex;
+   justify-content: space-around;
+   margin-bottom: 40px;
+ }
+
+ .stats div {
+   text-align: center;
+ }
+
+ .stats div h2 {
+   font-size: 40px;
+   color: #e74c3c;
+ }
+
+ .stats div p {
+   font-size: 18px;
+   color: #555;
+ }
+
+ .content {
+   background-color: #fff;
+   padding: 30px;
+   border-radius: 8px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   text-align: center;
+ }
+
+ .content h2 {
+   font-size: 24px;
+   margin-bottom: 20px;
+ }
+
+ .content .items {
+   display: flex;
+   justify-content: space-between;
+   text-align: left;
+ }
+
+ .content .item {
+   width: 30%;
+ }
+
+ .content .item h3 {
+   font-size: 18px;
+   margin-bottom: 10px;
+ }
+
+ .content .item p {
+   color: #555;
+ }
+
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.trainers-section, .packages-section {
+    margin-bottom: 50px;
+}
+
+.trainers-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.trainer {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    width: 18%;
+    margin-bottom: 20px;
+}
+
+.trainer img {
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.trainer h3 {
+    margin-bottom: 10px;
+}
+
+.trainer p {
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.trainer .btn {
+    color: #e74c3c;
+    text-decoration: none;
+    border: 1px solid #e74c3c;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+.trainer .btn:hover {
+    background-color: #e74c3c;
+    color: #fff;
+}
+
+.packages-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.package {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    width: 30%;
+}
+
+.package h3 {
+    margin-bottom: 15px;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.package p {
+    margin-bottom: 15px;
+    color: #777;
+}
+
+.package .btn {
+    background-color: #e74c3c;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+.package .btn:hover {
+    background-color: #c0392b;
+}
+
+.imging{
+   width: 1137px;
+}
+.cj{
+   position: absolute;
+   top: 2320px;
+   right: 920px;
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+}
+.cj1{
+   color: #fff;
+   font-size: 18px;
+}
+.cj2{
+   color: #fff;
+   font-size: 10px;
+}
+.inputlar{
+   position: absolute;
+   top: 2300px;
+   right: 620px;
+   width: 200px;
+   display: flex;
+   flex-direction: column;
+   gap: 5px;
+}
+.inputlar input{
+   height: 30px;
+}
+.inputlar a{
+   background-color: #000;
+   text-decoration: none;
+   color: white;
+   text-align: center;
+   height: 40px;
+   padding-top: 10px;
+}
+.Robolar{
+   background-color: #000;
+   margin-top: -5px;
+   width: 1137px;
+   height: 100px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.Rob{
+   color: #fff;
+   font-size: 20px;
+}
+.Rob1{
+   color: gray;
+   font-size: 8px;
+}
+.Robolar1{
+   padding-top: 20px; 
+   padding-left: 20px;
+   display: flex;
+   flex-direction: column;
+   gap: 5px;
+}
+.Robolar2{
+   color: #fff;
+   padding-top: 20px;
+   padding-right: 20px;
+}
